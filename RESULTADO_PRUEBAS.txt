@@ -1,0 +1,5 @@
+Validación de código realizada en entorno OpenJDK 21
+Comando: javac -encoding UTF-8 -d out src/enums/*.java src/modelo/*.java src/negocio/*.java src/app/*.java
+Ejecución: java -cp out app.PruebasBiblioteca
+Resultado: 29/29 pruebas OK
+Nota: esta transcripción no sustituye una captura de ejecución tomada por el estudiante.
