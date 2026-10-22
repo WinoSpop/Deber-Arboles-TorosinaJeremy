@@ -33,7 +33,12 @@ En VS Code: abrir esta carpeta con Java Extension Pack; ejecutar `app.PruebasBib
 
 ## Evidencias pendientes (realizadas por el estudiante)
 
-Añadir aquí la captura REAL de la ejecución de `app.PruebasBiblioteca`, después de compilar en tu equipo. Incluir también TRAZAS.md personalizado con tus tres códigos.
+Se ejecutó la clase PruebasBiblioteca.java para comprobar
+el funcionamiento de las estructuras implementadas.
+
+Resultado obtenido: 29/29 pruebas OK.
+
+![Resultado de las pruebas](evidencias/pruebas.png)
 
 ## Restricciones
 Sin colecciones de árboles prediseñadas, sin ordenamientos de lista. Recorridos, búsquedas y operaciones de árboles implementados recursivamente.
