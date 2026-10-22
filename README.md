@@ -42,3 +42,27 @@ Resultado obtenido: 29/29 pruebas OK.
 
 ## Restricciones
 Sin colecciones de árboles prediseñadas, sin ordenamientos de lista. Recorridos, búsquedas y operaciones de árboles implementados recursivamente.
+
+## Ejecución desde terminal
+
+Para compilar el proyecto desde la carpeta principal:
+
+```powershell
+javac -encoding UTF-8 -d out src/enums/*.java src/modelo/*.java src/negocio/*.java src/app/*.java
+```
+
+Para ejecutar las pruebas:
+
+```powershell
+java -cp out app.PruebasBiblioteca
+```
+
+Para iniciar el menú interactivo:
+
+```powershell
+java -cp out app.Main
+```
+
+El proyecto implementa árboles generales y árboles
+binarios de búsqueda mediante programación orientada
+a objetos y recursividad.
