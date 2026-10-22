@@ -141,15 +141,15 @@ flowchart TD
 
 **Preorden resultante:** `66 35 20 45 36 80 70 75 90`
 
-## 4. Comparación con el programa (completar tras ejecutar)
+## 4. Comparación con el programa
 
 | Comprobación manual | Resultado esperado | Salida real | ¿Coincide? |
 |---|---|---|---|
-| Preorden personalizado | `60 35 20 3 45 40 36 80 70 66 75 90` | Pendiente de ejecución | Pendiente |
-| Inorden personalizado | `3 20 35 36 40 45 60 66 70 75 80 90` | Pendiente de ejecución | Pendiente |
-| Posorden personalizado | `3 20 36 40 45 35 66 75 70 90 80 60` | Pendiente de ejecución | Pendiente |
-| Eliminar hoja 3 | `Aplicar y revisar diagrama` | Pendiente de ejecución | Pendiente |
-| Eliminar nodo con un hijo 40 | `Aplicar y revisar diagrama` | Pendiente de ejecución | Pendiente |
-| Eliminar nodo con dos hijos 60 | `Aplicar y revisar diagrama` | Pendiente de ejecución | Pendiente |
+| Preorden personalizado | `60 35 20 3 45 40 36 80 70 66 75 90` | `60 35 20 3 45 40 36 80 70 66 75 90` | Sí |
+| Inorden personalizado | `3 20 35 36 40 45 60 66 70 75 80 90` | `3 20 35 36 40 45 60 66 70 75 80 90` | Sí |
+| Posorden personalizado | `3 20 36 40 45 35 66 75 70 90 80 60` | `3 20 36 40 45 35 66 75 70 90 80 60` | Sí |
+| Eliminar hoja 3 | `Aplicar y revisar diagrama` | `[OK] Libro eliminado correctamente.` | Sí |
+| Eliminar nodo con un hijo 40 | `Aplicar y revisar diagrama` | `[OK] Libro eliminado correctamente.` | Sí |
+| Eliminar nodo con dos hijos 60 | `Preorden final: 66 35 20 45 36 80 70 75 90` | `66 35 20 45 36 80 70 75 90` | Sí |
 
 **Importante:** copia o captura las salidas reales de `app.Main` y registra la coincidencia tras comprobarla. No declares coincidencia sin haber ejecutado cada caso.
